@@ -1,7 +1,7 @@
 {
   "name": "portfolio-react",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -14,7 +14,8 @@
     "motion": "^12.38.0",
     "react": "^19.2.6",
     "react-dom": "^19.2.6",
-    "tailwindcss": "^4.3.0"
+    "tailwindcss": "^4.3.0",
+    "@tailwindcss/vite": "^4.3.0"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
