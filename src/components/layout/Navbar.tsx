@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import { motion, AnimatePresence } from 'motion/react'
 import { Menu, X } from 'lucide-react'
 import { profile } from '../../data/resume'
+import { ResumeButton } from '../ui/ResumeButton'
 
 const NAV = [
   { id: 'hero', label: 'Intro', n: '00' },
@@ -98,19 +99,7 @@ export function Navbar() {
           </nav>
 
           <div className="hidden lg:block">
-            <a
-              href="#contact"
-              onClick={(e) => {
-                e.preventDefault()
-                handleNav('contact')
-              }}
-              className="group relative inline-flex items-center gap-2 overflow-hidden rounded-full border border-white/15 px-5 py-2 font-mono text-xs uppercase tracking-[0.18em] text-white transition-colors hover:border-[#c084fc]"
-              data-cursor="hover"
-            >
-              <span className="relative z-10">Let's talk</span>
-              <span className="relative z-10 inline-block h-1.5 w-1.5 rounded-full bg-[#c084fc] shadow-[0_0_8px_#c084fc]" />
-              <span className="absolute inset-0 -z-0 translate-y-full bg-[#c084fc]/15 transition-transform duration-300 group-hover:translate-y-0" />
-            </a>
+            <ResumeButton variant="compact" />
           </div>
 
           <button
@@ -154,6 +143,15 @@ export function Navbar() {
                   </span>
                 </motion.button>
               ))}
+              <motion.div
+                initial={{ x: -30, opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
+                transition={{ delay: 0.06 * NAV.length, duration: 0.5 }}
+                onClick={() => setOpen(false)}
+                className="mt-6"
+              >
+                <ResumeButton variant="mobile" />
+              </motion.div>
             </motion.nav>
           </motion.div>
         )}
