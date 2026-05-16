@@ -52,8 +52,8 @@ export const contact: ContactItem[] = [
   },
   {
     label: 'GitHub',
-    value: 'github.com/JOOOEG123',
-    href: 'https://github.com/JOOOEG123',
+    value: 'github.com/JohnDGMN',
+    href: 'https://github.com/JohnDGMN',
     icon: 'github',
   },
   {
