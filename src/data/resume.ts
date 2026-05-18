@@ -58,8 +58,8 @@ export const contact: ContactItem[] = [
   },
   {
     label: 'LinkedIn',
-    value: 'linkedin.com/in/johnoliverdeguzman',
-    href: 'https://linkedin.com/in/johnoliverdeguzman',
+    value: 'linkedin.com/in/john-deguzman',
+    href: 'https://www.linkedin.com/in/john-deguzman-94598a40b/?skipRedirect=true',
     icon: 'linkedin',
   },
 ]
