@@ -2,7 +2,7 @@ import { motion } from 'motion/react'
 import { Download } from 'lucide-react'
 //JohnNewResume.docx
 export const RESUME_URL = '/JohnNewResume.docx'
-export const RESUME_FILENAME = 'John-Oliver-Resume.docx'
+export const RESUME_FILENAME = 'JohnNewResume.docx'
 
 type Props = {
   variant?: 'primary' | 'compact' | 'mobile'
