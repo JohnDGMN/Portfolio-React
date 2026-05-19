@@ -1,7 +1,7 @@
 import { motion } from 'motion/react'
 import { Download } from 'lucide-react'
 //JohnNewResume.docx
-export const RESUME_URL = '/John-Oliver-Resume.pdf'
+export const RESUME_URL = 'John-Oliver-Resume.pdf'
 export const RESUME_FILENAME = 'John-Oliver-Resume.pdf'
 
 type Props = {
