@@ -95,7 +95,7 @@ export const experiences: Experience[] = [
     shortName: 'NASA JPL',
     role: 'Software Development / Data Science Intern',
     location: 'La Cañada Flintridge, CA',
-    startDate: 'May 2023',
+    startDate: 'Apr 2023',
     endDate: 'Aug 2023',
     bullets: [
       'Developed a Python-based machine learning data exploration tool using Keras, Plotly, Seaborn, and NumPy to analyze rasterized UAVSAR wildfire and vegetation datasets from NASA JPL.',
